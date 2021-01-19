@@ -60,7 +60,7 @@ public final class Suma {
 	}
 	
 	/**
-	 * Función que suma el número introducido como argumento a la variable valor_acumulado. Este método no devuelve ningún valor
+	 * Función que suma el número introducido como argumento a la variable estática valor_acumulado. Este método no devuelve ningún valor
 	 * 
 	 * @param num Valor numérico real. Este valor se sumará a la variable estática valor_acumulado. 
 	 * 
