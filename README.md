@@ -5,13 +5,13 @@ En esta actividad, nuestro equipo ha creado un paquete con cuatro clases que rea
 ## Miembros del equipo
 Jana Montero Perales  
 Pilar Navío Colón  
-Paula García Casado  
+Paula Casado García  
 Ixchel López Alegre
 
 ## Reparto de tareas:
 Nota: No debe tomarse la lista que sigue como el ámbito exclusivo de trabajo de cada miembro del equipo. No sólo hemos revisado y participado en la toma de decisiones del proyecto en conjunto; también nos hemos ayudado mutuamente a mejorar nuestras respectivas secciones. Es por esto que se pueden apreciar patrones y paralelismos a través de las diferentes clases, resultando en cierta uniformidad en la documentación.
 * Suma: Jana Montero Perales
-* Resta: Paula García Casado
+* Resta: Paula Casado García
 * Producto: Pilar Navío Cólon
 * División: Ixchel López Alegre
 

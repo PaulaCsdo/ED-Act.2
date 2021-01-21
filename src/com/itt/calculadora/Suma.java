@@ -2,24 +2,26 @@ package com.itt.calculadora;
 
 /**
  * La clase suma contiene métodos para sumar distintos tipos de variables numéricas.  <br>
- * Todos los métodos de esta clase aceptan números negativos. El resultado de una suma en la que al menos uno de los números es negativo será una resta.
+ * Todos los métodos de esta clase aceptan números negativos. <br>
+ * Casos especiales:
+ * <li>El resultado de una suma en la que al menos uno de los números es negativo será una resta. El mismo resultado se puede obtener llamando al método equivalente de la clase {@link Resta}.</li>
  * <p>
  * Esta clase pertenece al paquete {@link com.itt.calculadora}, que reune varias clases para realizar distintas operaciones matemáticas.
  * 
- * @author Jana
+ * @author Jana Montero Perales
  * @version 1.0
  * @since 17-01-2021
- * @see com.itt.calculadora
+ * @see com.itt.calculadora 
+ * 
  */
 public final class Suma {
 	
 	/**
 	 * Variable que contiene el valor acumulado de todas las sumas realizadas con valor acumulado
 	 */
-	public static float valor_acumulado;
+	public static float valor_acumulado = 0.0F;
 	
 	private Suma() {
-		this.valor_acumulado = 0.0F;		
 	}
 	
 	/**
@@ -31,7 +33,7 @@ public final class Suma {
 	 * 
 	 */
 	public static float sumar_reales(float oper1, float oper2) {
-		return oper1 + oper2;
+		return 0.0F;
 	}
 	
 	/**
@@ -43,7 +45,7 @@ public final class Suma {
 	 * 
 	 */
 	public static int sumar_enteros(int oper1, int oper2) {
-		return oper1 + oper2;
+		return 0;
 	}	
 	
 	/**
@@ -56,7 +58,7 @@ public final class Suma {
 	 * 
 	 */
 	public static float sumar_reales(float oper1, float oper2, float oper3) {
-		return oper1 + oper2 + oper3;
+		return 0.0F;
 	}
 	
 	/**
@@ -67,6 +69,5 @@ public final class Suma {
 	 * @see valor_acumulado
 	 */
 	public static void sumar_acum(float num) {
-		valor_acumulado += num;
 	}	
 }
