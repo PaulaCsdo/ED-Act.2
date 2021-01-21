@@ -1,10 +1,10 @@
 package com.itt.calculadora;
 
 /**
- * La clase suma contiene métodos para sumar distintos tipos de variables numéricas.  <br>
+ * La clase Suma contiene métodos para sumar distintos tipos de variables numéricas.  <br>
  * Todos los métodos de esta clase aceptan números negativos. <br>
  * Casos especiales:
- * <li>El resultado de una suma en la que al menos uno de los números es negativo será una resta. El mismo resultado se puede obtener llamando al método equivalente de la clase {@link Resta}.</li>
+ * El resultado de una suma en la que al menos uno de los números es negativo será una resta. El mismo resultado se puede obtener llamando al método equivalente de la clase {@link Resta}.
  * <p>
  * Esta clase pertenece al paquete {@link com.itt.calculadora}, que reune varias clases para realizar distintas operaciones matemáticas.
  * 

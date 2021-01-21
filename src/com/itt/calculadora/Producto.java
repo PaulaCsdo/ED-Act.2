@@ -1,7 +1,7 @@
 package com.itt.calculadora;
 /**
  * 
- * La clase producto contiene métodos para multiplicar dos o tres operadores y calcular la potencia de un número.
+ * La clase Producto contiene métodos para multiplicar dos o tres operadores y calcular la potencia de un número.
  * <p>
  * Esta clase pertenece al paquete {@link com.itt.calculadora}, que reune varias clases para realizar distintas operaciones matemáticas.
  * 
