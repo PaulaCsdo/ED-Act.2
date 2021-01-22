@@ -24,10 +24,10 @@ public final class Producto {
 	 * 
 	 * @param oper2 Valor numérico de tipo float. Segundo operador.
 	 * 
-	 * @return producto Valor numérico de tipo float. Resultado de la multiplicación de oper1 y oper2.
+	 * @return Valor numérico de tipo float. Resultado de la multiplicación de oper1 y oper2.
 	 * 	
 	 */
-	public static float producto_2reales (float oper1, float oper2){
+	public static float productoDosReales (float oper1, float oper2){
 		return 0.0F;
 	}
 	
@@ -42,7 +42,7 @@ public final class Producto {
 	 * @return producto Valor numérico entero. Resultado de la multiplicación de oper1 y oper2.
 	 * 	
 	 */
-	public static int producto_2enteros (int oper1, int oper2){
+	public static int productoDosEnteros (int oper1, int oper2){
 		return 0;
 	}
 	
@@ -56,10 +56,10 @@ public final class Producto {
 	 * 
 	 * @param oper3 Valor numérico de tipo float. Tercer operador.
 	 * 
-	 * @return producto Valor numérico de tipo float. Resultado de la multiplicación de oper1, oper2 y oper3.
+	 * @return Valor numérico de tipo float. Resultado de la multiplicación de oper1, oper2 y oper3.
 	 * 	
 	 */
-	public static float producto_3reales (float oper1, float oper2, float oper3){
+	public static float productoTres (float oper1, float oper2, float oper3){
 		return 0.00F;
 	}
 	
@@ -67,17 +67,23 @@ public final class Producto {
 	/**
 	 * Método que devuelve la potencia de un número
 	 * 
-	 * @param base Valor numérico entero. Número que se multiplica varias veces.
-	 * 
-	 * La base no puede ser 0.
+	 * @param base Valor numérico entero. Número que se multiplica varias veces.<br>
 	 * 
 	 * @param exp Valor numérico entero. Exponente: Número de veces que se multiplica la base. Si el exponente es 0, el resultado será 1.
 	 * 
 	 * @return Valor numérico de tipo long. Resultado de multiplicar base tantas veces como se indique en exp.<br>
 	 * 			Por ejemplo: int base=5, int exp=4 <br>
-	 * 			El resultado será el producto de: 5*5*5*5
+	 * 			El resultado será el producto de: 5*5*5*5 <p>
+	 * 
+	 * Casos especiales:<br>
+	 * Si la base es 0 y el exponente es 0, el resultado dará un error.<br>
+	 * Si el exponente es 0, el resultado será 1.<br>
+	 * Si el exponente es 1, el resultado será igual a la base.<br>
+	 * Si la base es 0, el resultado será 0.<br>
+	 * Si la base es un número negativo, el signo del resultado depende de si el exponente es par, en cuyo caso el signo será positivo, o impar, resultando en negativo. <p>
+	 * 			
 	 */
 	public static long potencia (int base, int exp){
-		return 0;
+		return 0L;
 	}
 }
