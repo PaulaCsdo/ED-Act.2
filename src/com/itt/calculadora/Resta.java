@@ -35,7 +35,7 @@ public class Resta {
 	 * En el caso de que el primer operando sea un número positivo, y el segundo operando, un número negativo, la operación será una suma: 
 	 * @see Suma
 	 */
-	public static double resta_2reales (double oper1, double oper2){
+	public static double restaReales (double oper1, double oper2){
 		return 0.0;
 	}
 	
@@ -48,7 +48,7 @@ public class Resta {
 	 * 
 	 * @return resultado de restar oper2 a oper1. Es un número entero (int).
 	 */
-	public static int resta_2enteros (int oper1, int oper2){
+	public static int restaEnteros (int oper1, int oper2){
 		return 0;
 	}
 	
@@ -61,7 +61,7 @@ public class Resta {
 	 * 
 	 * @return resultado de restar los tres números. Es un número real (double).
 	 */
-	public static double resta_3reales (double oper1, double oper2, double oper3){
+	public static double restaTres (double oper1, double oper2, double oper3){
 		return 0.0;
 	}
 	
@@ -75,7 +75,7 @@ public class Resta {
 	 * 
 	 * Este método no devuelve un resultado, sino que queda guardado en la clase.
 	 */
-	public static void resta_acumulado (double oper1){
+	public static void restaAcumulada (double oper1){
 	}
 
 }
