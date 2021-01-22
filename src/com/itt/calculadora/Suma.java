@@ -17,7 +17,7 @@ public final class Suma {
 	/**
 	 * Variable que contiene el valor acumulado de todas las sumas acumuladas realizadas.
 	 */
-	public static float suma_acumulada = 0.0F;
+	public static double suma_acumulada = 0.0;
 	
 	private Suma() {
 	}
@@ -25,38 +25,48 @@ public final class Suma {
 	/**
 	 * Función que suma dos números reales
 	 * 
-	 * @param oper1 Valor numérico real. Primer operando. 
-	 * @param oper2 Valor numérico real. Segundo operando. 
-	 * @return Devuelve el resultado de la suma oper1 + oper2. Valor numérico real.
+	 * @param oper1 Representa el primer operando. Es un número real (double).
+	 * @param oper2 Representa el segundo operando. Es un número real (double).
+	 * @return Devuelve el resultado de la suma oper1 + oper2. Es un número real (double).
 	 * 
+	 * Casos especiales:<br>
+	 * En el caso de que alguno de los operandos sea un número negativo, el resultado será una resta 
+	 * @see Resta
 	 */
-	public static float sumarReales(float oper1, float oper2) {
-		return 0.0F;
+	public static double sumaReales(double oper1, double oper2) {
+		return 0.0;
 	}
 	
 	/**
 	 * Función que suma dos números enteros
 	 * 
-	 * @param oper1 Valor numérico entero. Primer operando. 
-	 * @param oper2 Valor numérico entero. Segundo operando. 
-	 * @return Devuelve el resultado de la suma oper1 + oper2. Valor numérico entero. 
+	 * @param oper1 Representa el primer operando. Es un número real (int).
+	 * @param oper2 Representa el segundo operando. Es un número real (int).
+	 * @return Devuelve el resultado de la suma oper1 + oper2. Es un número real (int).
 	 * 
+	 * Casos especiales:<br>
+	 * En el caso de que alguno de los operandos sea un número negativo, el resultado será una resta 
+	 * @see Resta
 	 */
-	public static int sumarEnteros(int oper1, int oper2) {
+	public static int sumaEnteros(int oper1, int oper2) {
 		return 0;
 	}	
 	
 	/**
 	 * Función que suma tres números reales
 	 * 
-	 * @param oper1 Valor numérico real. Primer operando. 
-	 * @param oper2 Valor numérico real. Segundo operando. 
-	 * @param oper3 Valor numérico real. Tercer operando.
+	 * @param oper1 Representa el primer operando. Es un número real (double).
+	 * @param oper2 Representa el segundo operando. Es un número real (double).
+	 * @param oper3 Representa el tercer operando. Es un número real (double).
 	 * @return Devuelve el resultado de la suma oper1 + oper2 + oper3.
 	 * 
+	 * Casos especiales:<br>
+	 * En el caso de que alguno de los operandos sea un número negativo, el resultado será una resta 
+	 * @see Resta
+	 *  
 	 */
-	public static float sumarTres(float oper1, float oper2, float oper3) {
-		return 0.0F;
+	public static double sumaTres(double oper1, double oper2, double oper3) {
+		return 0.0;
 	}
 	
 	/**
@@ -64,10 +74,13 @@ public final class Suma {
 	 * Si el valor de suma_acumulada cuando se llama al método es 100.0, y el argumento con el que se le llama es 5.0, el valor de suma_acumulada tras su ejecución será 100.0 <br>
 	 * Este método no devuelve ningún valor.
 	 * 
-	 * @param num Valor numérico real. Este valor se sumará a la variable estática valor_acumulado. 
+	 * @param oper Representa el operando. Es un número real (double).
 	 * 
-	 * @see valor_acumulado
+	 * Casos especiales:<br>
+	 * En el caso de que el operando sea un número negativo, el valor de suma_acumulada se verá reducido por el valor absoluto del operando. 
+	 * 
+	 * @see suma_acumulada
 	 */
-	public static void sumaAcumulada(float num) {
+	public static void sumaAcumulada(double oper) {
 	}	
 }
