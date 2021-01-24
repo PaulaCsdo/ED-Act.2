@@ -7,7 +7,7 @@ package com.itt.calculadora;
  * 
  * @author Pilar Navío Colón
  * @since 17/01/2021
- * @version 1.1
+ * @version 1.4
  * @see com.itt.calculadora
  *
  */
@@ -20,11 +20,11 @@ public final class Producto {
 	/**
 	 * Método que multiplica dos números reales
 	 * 
-	 * @param oper1 Valor numérico de tipo float. Primer operador.
+	 * @param oper1 Representa el primer operando. Es un número real (float).
 	 * 
-	 * @param oper2 Valor numérico de tipo float. Segundo operador.
+	 * @param oper2 Representa el segundo operando. Es un número real (float).
 	 * 
-	 * @return Valor numérico de tipo float. Resultado de la multiplicación de oper1 y oper2.
+	 * @return Resultado de la multiplicación de oper1 y oper2. Es un número real (float).
 	 * 	
 	 */
 	public static float productoDosReales (float oper1, float oper2){
@@ -35,11 +35,11 @@ public final class Producto {
 	/**
 	 * Método que multiplica dos números enteros
 	 * 
-	 * @param oper1 Valor numérico entero. Primer operador.
+	 * @param oper1 Representa el primer operando. Es un número entero (int).
 	 * 
-	 * @param oper2 Valor numérico entero. Segundo operador.
+	 * @param oper2 Representa el segundo operando. Es un número entero (int).
 	 * 
-	 * @return producto Valor numérico entero. Resultado de la multiplicación de oper1 y oper2.
+	 * @return Resultado de la multiplicación de oper1 y oper2. Es un número entero (int).
 	 * 	
 	 */
 	public static int productoDosEnteros (int oper1, int oper2){
@@ -50,13 +50,13 @@ public final class Producto {
 	/**
 	 * Método que multiplica tres números reales
 	 * 
-	 * @param oper1 Valor numérico de tipo float. Primer operador.
+	 * @param oper1 Representa el primer operando. Es un número real (float).
 	 * 
-	 * @param oper2 Valor numérico de tipo float. Segundo operador.
+	 * @param oper2 Representa el segundo operando. Es un número real (float).
 	 * 
-	 * @param oper3 Valor numérico de tipo float. Tercer operador.
+	 * @param oper3 Representa el tercer operando. Es un número real (float).
 	 * 
-	 * @return Valor numérico de tipo float. Resultado de la multiplicación de oper1, oper2 y oper3.
+	 * @return Resultado de la multiplicación de oper1, oper2 y oper3. Es un número real (float).
 	 * 	
 	 */
 	public static float productoTres (float oper1, float oper2, float oper3){
@@ -67,11 +67,11 @@ public final class Producto {
 	/**
 	 * Método que devuelve la potencia de un número
 	 * 
-	 * @param base Valor numérico entero. Número que se multiplica varias veces.<br>
+	 * @param base Número que se multiplica varias veces. Es un número entero (int).<br>
 	 * 
-	 * @param exp Valor numérico entero. Exponente: Número de veces que se multiplica la base. Si el exponente es 0, el resultado será 1.
+	 * @param exp Exponente: Número de veces que se multiplica la base. Es un número entero (int). <br>
 	 * 
-	 * @return Valor numérico de tipo long. Resultado de multiplicar base tantas veces como se indique en exp.<br>
+	 * @return Resultado de multiplicar base tantas veces como se indique en exp. Es un número entero (long). <br>
 	 * 			Por ejemplo: int base=5, int exp=4 <br>
 	 * 			El resultado será el producto de: 5*5*5*5 <p>
 	 * 

@@ -7,7 +7,7 @@ package com.itt.calculadora;
  * Esta clase pertenece al paquete {@link com.itt.calculadora}, que reune varias clases para realizar distintas operaciones matemáticas.
  * 
  * @author Jana Montero Perales
- * @version 1.2
+ * @version 1.4
  * @since 17-01-2021
  * @see com.itt.calculadora 
  * 
