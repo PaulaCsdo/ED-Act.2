@@ -80,7 +80,7 @@ public final class Cociente {
  * <p>
  * Casos especiales:<br>
  *  Si el argumento es 0 el resultado es 0.<br>
- *  Si el argumento negativo, el resultado es NaN. <br>
+ *  Si el argumento es negativo, el resultado es NaN. <br>
  */
 	public double raizCuadrada (double oper) {
 		 return 0.0;
