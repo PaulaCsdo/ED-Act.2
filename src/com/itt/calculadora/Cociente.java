@@ -1,14 +1,14 @@
 package com.itt.calculadora;
 /**
  * 
- * La clase Cociente contiene métodos para dividir dos operadores, 
+ * La clase cociente contiene métodos para dividir dos operadores, 
  * realizar la inversión de un número, así como la raiz cuadrada.
  * 
  * Esta clase pertenece al paquete {@link com.itt.calculadora}, 
  * reune varias clases para realizar distintas operaciones matemáticas
  * @author Ixchel López Alegre
  * @since 18/01/2021
- * @version 1.0
+ * @version 1.3
  * @see com.itt.calculadora
  */
 
@@ -20,66 +20,69 @@ public final class Cociente {
 	}
 	
 /**
- * Este método implementará la división de dos números reales. Si
- * el segundo operando es igual a 0, la operación será nula.
+ * Función que realiza la división de dos números reales.
  * 
  * @param oper1 Representa el primer operador de la división 
  * 
  * @param oper2 Representa el segundo operador, el dividendo
  * 
- * @return El resultado será la división entre num1 y num2.
+ * @return Devuelve el valor de la división entre los dos operadores. <p>
  * 
- 
+ * 
+ * Casos especiales:<br>
+ * 	Si el segundo operador, es igual a 0, el resultado POSITIVE_INFINITY o NEGATIVE_INFINITY dependiendo del signo del primer operador.<br>
+ * 	Si el ambos operadores son cero, el resultado sera NaN.<br>
+ * 
+ *
  */
-	public static float cocienteReales (float oper1, float oper2) {
+	public static float dividirReales (float oper1, float oper2) {
 		return 0.0F ;
 	}
 	
 /**
- * Este método implementará la división de dos números enteros. Si
- * el segundo operando es igual a 0, la operación será nula.
+ * Este método implementará la división de dos números enteros. 
  * 
  * @param oper1 Representa el primer operador de la división 
  * 
  * @param oper2 Representa el segundo operador, el dividendo
  *
- * @return El resultado será la división entre num1 y num2.
+ * @return El resultado será la división entre oper1 y oper2.
  * 
+ * @throws ArithmeticException Si el dividendo es igual a 0. 
+ * <p> 
  *
  */
-	public int cocienteEnteros (int oper1,int oper2) {
-		return 0;
-	}	
+	public float dividirEnteros (int oper1,int oper2) {
+		return 0F;
+	}
 	
 /**
  *  Este método implementará la inversión de un número entero.
  *  
- *  @param oper1 Representa el número que vas a invertir
+ *  @param oper Representa el número que vas a invertir
  *  
  *  @return El resultado será la inversión del número.
+ *  <p>  
+ *  Ejemplo: si se introduce el valor 345, el método devolverá 543.
  * 
  */
-	public int invertirNum (int oper1) {
+	public int invertirNum (int oper) {
 
-		/*int inverso = 0, cifra = 0;
-		while (num1!=0) {
-			cifra= num1 % 10;
-			inverso = (inverso * 10) + cifra;
-			num1 /= 10;
-		}
-		return inverso;
-		*/
 		return 0;
 	}
 	
 /**
  * Este método implemetará la raiz cuadrada de un número.
  * 
- * @param oper1 Representa el número cuya raíz cuadrada se va a calcular.
+ * @param oper Representa el número cuya raíz cuadrada se va a calcular.
  * 
  * @return Resultado de la raiz cuadrada del parámetro uno.
+ * <p>
+ * Casos especiales:<br>
+ *  Si el argumento es 0 el resultado es 0.<br>
+ *  Si el argumento negativo, el resultado es NaN. <br>
  */
-	public double raizCuadrada (float oper1) {
-		 return 0.0F;
+	public double raizCuadrada (double oper) {
+		 return 0.0;
 	}
 }

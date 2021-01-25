@@ -78,11 +78,11 @@ public class Resta {
 	 * Para ello, se resta el valor introducido al último resultado de la resta.<br>
 	 * Por ejemplo:<br> resultado acumulado=0; <br> Si el oper1 vale 5, el valor del resultado acumulado será: 0-5= <b>-5</b>
 	 * 
-	 * @param oper1 Representa el operando. Es un número real (double).
+	 * @param oper Representa el operando. Es un número real (double).
 	 * 
 	 * Este método no devuelve un resultado, sino que éste queda guardado en la clase.
 	 */
-	public static void restaAcumulado (double oper1){
+	public static void restaAcumulado (double oper){
 	}
 
 }
