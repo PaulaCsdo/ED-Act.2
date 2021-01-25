@@ -55,7 +55,7 @@ public final class Cociente {
  *
  */
 	public int dividirEnteros (int oper1,int oper2) {
-		return 0F;
+		return (int) 0.0F;
 	}	
 	
 /**
