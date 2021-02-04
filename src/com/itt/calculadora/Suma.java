@@ -34,7 +34,7 @@ public final class Suma {
 	 * @see Resta
 	 */
 	public static double sumaReales(double oper1, double oper2) {
-		return 0.0;
+		return oper1 + oper2;
 	}
 	
 	/**
