@@ -49,7 +49,7 @@ public final class Suma {
 	 * @see Resta
 	 */
 	public static int sumaEnteros(int oper1, int oper2) {
-		return 0;
+		return oper1 + oper2;
 	}	
 	
 	/**
@@ -66,7 +66,7 @@ public final class Suma {
 	 *  
 	 */
 	public static double sumaTres(double oper1, double oper2, double oper3) {
-		return 0.0;
+		return oper1 + oper2 + oper3;
 	}
 	
 	/**
@@ -82,5 +82,6 @@ public final class Suma {
 	 * @see suma_acumulada
 	 */
 	public static void sumaAcumulada(double oper) {
+		Suma.suma_acumulada += oper;
 	}	
 }
